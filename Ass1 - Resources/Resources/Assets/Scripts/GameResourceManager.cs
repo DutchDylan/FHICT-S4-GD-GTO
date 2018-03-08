@@ -24,6 +24,8 @@ public class GameResourceManager : MonoBehaviour
         Gold.Increase(20);
         Soldiers.Increase(1);
         AddButton.onClick.AddListener(AddWood);
+        RemoveButton.onClick.AddListener(RemovedWood);
+        AquireButton.onClick.AddListener(AquireSoldier);
     }
 
     public void AddWood()
