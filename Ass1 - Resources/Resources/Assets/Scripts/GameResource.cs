@@ -17,4 +17,27 @@ public class GameResource : MonoBehaviour
         rName = name;
         rAmount = amount;
     }
+
+    public void Increase()
+    {
+        rAmount++;
+    }
+    public void Increase(int amount )
+    {
+        rAmount = rAmount + amount;
+    }
+
+    public void Decrease()
+    {
+        rAmount--;
+    }
+    public void Decrease(int amount)
+    {
+        rAmount = rAmount - amount;
+    }
+
+    public override string ToString()
+    {
+        return rName + ": " + rAmount;
+    }
 }
