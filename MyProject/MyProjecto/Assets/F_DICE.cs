@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class F_DICE : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    Random rnd;
+    public void Start()
+    {
+        rnd = new Random();
+    }
+
+    public int RollD6()
+    {
+        return rnd.Next(1, 7); // creates a number between 1 and 6
+    }
+
 }
