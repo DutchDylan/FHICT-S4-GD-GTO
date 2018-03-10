@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class UnitFactoryPP : MonoBehaviour
 {
+    /*
     public UnitPP Prototype;
     public MapPP Map;
 
@@ -13,7 +14,7 @@ public class UnitFactoryPP : MonoBehaviour
     public int x;
     public int y;
 
-    public void SpawnUnit(/* UnitPP unit */)
+    public void SpawnUnit(/* UnitPP unit * /)
     {
         if(ResourcePP.CanAfford(Cost))
         {
@@ -33,4 +34,5 @@ public class UnitFactoryPP : MonoBehaviour
     {
 
     }
+    */
 }

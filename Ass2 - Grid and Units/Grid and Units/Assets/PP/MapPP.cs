@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MapPP : MonoBehaviour
 {
+    /*
     public int SizeX;
     public int SizeY;
 
@@ -60,5 +61,5 @@ public class MapPP : MonoBehaviour
 
         return transform.GetChild((x * SizeX) + y ).GetComponent<CellPP>();
     }
-
+    */
 }

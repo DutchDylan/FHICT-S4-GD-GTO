@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ResourcePP : MonoBehaviour
 {
+    /*
 
     void Awake()
     {
@@ -15,4 +16,5 @@ public class ResourcePP : MonoBehaviour
         Quanity = Initial
     }
 
+    */
 }
