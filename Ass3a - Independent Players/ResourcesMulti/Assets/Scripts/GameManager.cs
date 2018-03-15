@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public List<Player> players; //So that Unity can take control of the amount of players;
-    private Player currentPlayer;
+    public Player currentPlayer;
 
     public List<GameResource> resources;
 
@@ -23,8 +23,9 @@ public class GameManager : MonoBehaviour
         */ //not allowed, list should be public and accessible by Unity
     }
 
-    public void NextPlayer() 
+    public void NextPlayer() //To advance turns
     {
+        //should be looked at again
         int id = currentPlayer.pID + 1;
         if (players[id] != null)
         {
@@ -35,6 +36,9 @@ public class GameManager : MonoBehaviour
             players[id] = players[0];
         }
     }
+
+    //Methods from other manager should be imported/redone here
+    //ui elements should also perhaps be seperated, if possible, for cleanliness
 
     private void Update()
     {
