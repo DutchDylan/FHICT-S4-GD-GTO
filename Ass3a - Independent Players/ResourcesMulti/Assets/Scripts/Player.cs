@@ -23,6 +23,11 @@ public class Player : MonoBehaviour
         pResources = resources;
         pInventory = inventory;
     }
+
+    public void ChangeName(string name)
+    {
+        pName = name;
+    }
     
 
 }
