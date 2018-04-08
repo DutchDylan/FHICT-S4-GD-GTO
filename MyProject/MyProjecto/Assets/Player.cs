@@ -6,7 +6,7 @@ public class Player : MonoBehaviour {
 
     public int pID { get; private set; }
     private string pName;
-    private int pWinpoints;
+    public int pWinpoints;
     public Tile pTile;
 
     public Player(int id, string name)
