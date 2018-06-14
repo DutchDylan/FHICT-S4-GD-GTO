@@ -10,6 +10,7 @@ public class MainGame : MonoBehaviour
     public Button DiceRollButton;
     public Button MovementButton;
 
+    public Text LabelPlayerCurrent;
     public Text LabelPlayerOne;
     public Text LabelPlayerTwo;
     public Text LabelPlayerThree;
@@ -72,8 +73,8 @@ public class MainGame : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-		
-	}
+        //LabelPlayerCurrent.text = currentPlayer.name;
+    }
 
     public void NextPlayer() //Advance to next player
     {
